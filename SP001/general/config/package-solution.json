@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "general-samples",
+    "id": "5bd6dc03-ac82-4999-ae37-51931bbd9861",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "metadata": {
+      "shortDescription": {
+        "default": "general samples"
+      },
+      "longDescription": {
+        "default": "general samples"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/general-samples.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.17.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "consumer",
+    "libraryId": "7242abb6-ab0c-4717-9de9-7a6bd51955d2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "consumer",
+    "solutionShortDescription": "consumer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

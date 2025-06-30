@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "samples": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/consuming-default-services/webpart.js",
+          "manifest": "./src/webparts/consuming-default-services/manifest.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/register-custom-service/webpart.js",
+          "manifest": "./src/webparts/register-custom-service/manifest.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/child-scope/webpart.js",
+          "manifest": "./src/webparts/child-scope/manifest.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/custom-initialization/webpart.js",
+          "manifest": "./src/webparts/custom-initialization/manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {}
+}

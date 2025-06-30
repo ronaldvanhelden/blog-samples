@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "bfe37fcf-11f8-40c5-8a02-6141a59c9f62",
+  "alias": "ConsumerB",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Consumer-B" },
+      "description": { "default": "Consumer-B" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Consumer-A"
+      }
+    }
+  ]
+}

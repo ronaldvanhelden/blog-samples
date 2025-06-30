@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "consumer-a-webpart": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/consumerA/ConsumerAWebPart.js",
+          "manifest": "./src/webparts/consumerA/ConsumerAWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {}
+}
